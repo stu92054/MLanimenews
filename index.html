@@ -27,7 +27,7 @@ window.onload=function(){
   var timer=null;
   var show=document.getElementById("show");
   function show_date_time(){
-    var target=new Date("2020/7/4 15:20");
+    var target=new Date("2020-07-04T15:20+08:00");
     var today=new Date();
     var timeold=(today.getTime()-target.getTime());
     var sectimeold=timeold/1000
