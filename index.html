@@ -49,7 +49,7 @@ window.onload=function(){
       if (hrsold<10) {hrsold="0"+hrsold}
       if (minsold<10) {minsold="0"+minsold}
       if (seconds<10) {seconds="0"+seconds}
-      show.innerHTML="<h1>距離ML宣布動畫化已經:"+daysold+"天"+hrsold+"小時"+minsold+"分"+seconds+"秒，目前還是沒有進一步消息</h1>";
+      show.innerHTML="<h2>距離ML宣布動畫化已經:"+daysold+"天"+hrsold+"小時"+minsold+"分"+seconds+"秒了，目前還是沒有進一步消息</h2>";
     }
   }
   timer=setInterval(show_date_time,1000);
@@ -57,9 +57,15 @@ window.onload=function(){
 </script>
 </head>
 <body>
-<div id="show"></div>
-<div class="animepv">
-<iframe src="https://www.youtube.com/embed/66eT5shb7Fw?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
+  <div>
+  <h1>ML動畫化有新消息了嗎?</h1>
+  </div>
+  <div id="show"></div>
+  <div>
+  <h2>動畫化PV:</h2>
+  </div>
+  <div class="animepv">
+  <iframe src="https://www.youtube.com/embed/66eT5shb7Fw?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 </body>
 </html>
