@@ -4,6 +4,15 @@
 <meta charset=" utf-8">
 <meta name="author" content="stu92054" />
 <title>今天ML動畫化有新消息了嗎?</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LCNHNJV03"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1LCNHNJV03');
+</script>
 <style>
 .animepv {
     position: relative;
@@ -26,6 +35,7 @@
 window.onload=function(){
   var timer=null;
   var show=document.getElementById("show");
+    show.innerHTML="<h2>距離ML宣布動畫化已經過了--天--小時--分--秒了，目前還是沒有進一步消息</h2>";
   function show_date_time(){
     var target=new Date("2020-07-04T15:20+08:00");
     var today=new Date();
